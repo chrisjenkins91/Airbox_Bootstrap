@@ -1,0 +1,23 @@
+.header-container{
+    background-color: #262336;
+}
+
+.hero-container{
+    background-color: #262336;
+}
+
+.hero-container button{
+    background-color: #9c96b8;
+}
+
+.symbols-container{
+    background-color: #f29b66;
+}
+
+.prices-container button{
+    background-color: #f29b66;
+}
+
+.prices-container table th{
+    background-color: #6f6c89;
+}
