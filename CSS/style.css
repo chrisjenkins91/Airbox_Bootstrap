@@ -21,3 +21,7 @@
 .prices-container table th{
     background-color: #6f6c89;
 }
+
+.prices-container table span{
+    color: #f29b66;
+}
