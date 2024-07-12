@@ -1,3 +1,5 @@
+/*Hero Section*/
+
 .header-container{
     background-color: #262336;
 }
@@ -10,18 +12,123 @@
     background-color: #9c96b8;
 }
 
+.hero-container h2{
+    background: #D5D3D3;
+    background: linear-gradient(to right, #D5D3D3 0%, #9C9797 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-container h1, .hero-container h2{
+    margin-bottom: 0;
+}
+
+/*Navbar Area*/
+
+    /*This makes "AirBox Hosting Provider stack on top of each other in navbar */
+.navbar-brand .brand-text{
+    display:flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+.brand-text{
+    font-size: 20px;
+}
+
+.navbar{
+    background-color: #262336;
+}
+
+.navbar img{
+    padding-right: 20px;
+}
+
+.nav-link{
+    font-size: small;
+}
+
+/*Symbols Section*/
+
 .symbols-container{
     background-color: #f29b66;
 }
+
+.symbols-container h3{
+    color: white;
+}
+
+.symbols-container h4{
+    background: #D5D3D3;
+    background: linear-gradient(to right, #D5D3D3 0%, #9C9797 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*Prices Section*/
 
 .prices-container button{
     background-color: #f29b66;
 }
 
 .prices-container table th{
+    color: #D5D3D3;
+    color: linear-gradient(to right, #D5D3D3 0%, #9C9797 100%);
     background-color: #6f6c89;
 }
 
-.prices-container table span{
+
+.prices-container span{
     color: #f29b66;
+}
+
+.prices-container h3{
+    background: #D5D3D3;
+    background: linear-gradient(to right, #D5D3D3 0%, #9C9797 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*Solutions Area*/
+
+.solutions-container{
+    background-color: #262336;
+}
+
+.solutions-container h3{
+    background: #D5D3D3;
+    background: linear-gradient(to right, #D5D3D3 0%, #9C9797 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.solutions-container p{
+    background: #D5D3D3;
+    background: linear-gradient(to right, #D5D3D3 0%, #9C9797 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.solutions-container button{
+    background-color: #f29b66;
+}
+
+.solutions-container ul{
+    font-size: 13px;
+}
+
+.solutions-container li::marker{
+    color: #f29b66;
+}
+
+.solutions-container p{
+    font-size: 15px;
+}
+
+/*Brands Area*/
+
+.brands-container{
+    background-color: #312e3f;
 }
