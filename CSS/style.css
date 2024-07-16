@@ -4,6 +4,7 @@
     background-color: #262336;
 }
 
+
 .hero-container{
     background-color: #262336;
 }
@@ -12,7 +13,7 @@
     background-color: #9c96b8;
 }
 
-.hero-container h2{
+.header-container small, .brand-text span{
     background: #D5D3D3;
     background: linear-gradient(to right, #D5D3D3 0%, #9C9797 100%);
     -webkit-background-clip: text;
@@ -22,6 +23,7 @@
 .hero-container h1, .hero-container h2{
     margin-bottom: 0;
 }
+
 
 /*Navbar Area*/
 
@@ -33,6 +35,7 @@
 }
 
 .brand-text{
+    padding-right: 1em;
     font-size: 20px;
 }
 
@@ -41,7 +44,7 @@
 }
 
 .navbar img{
-    padding-right: 20px;
+    padding-right: 5px;
 }
 
 .nav-link{
@@ -132,3 +135,6 @@
 .brands-container{
     background-color: #312e3f;
 }
+
+/*Footer Area*/
+

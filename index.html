@@ -5,46 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Airbox Bootstrap</title>
 
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </head>
-<body>
-    <nav class="navbar navbar-expand-md sticky-top navbar-light">
+<body> <!--navbar container must come before the div container in order to work properly-->
+    <nav class="navbar navbar-expand-md sticky-top navbar-light"> <!--Bootstrap feature that expands navbar from toggle button-->
         <div class="header-container container-fluid">
-            <a href="#" class="navbar-brand d-flex align-items-center">
-                <img src="/img/Airbox_Logo.png" alt="AirBox" class="mr-2" width="70">
+            <a href="#" class="col-md-5 col-lg-6 col-xl-7 col-xxl-8 navbar-brand d-flex align-items-center"><!--This gives the image and text stacked logo style. Added column to class to give correct spacing for links-->
+                <img src="img/Airbox_Logo.png" alt="AirBox" class="mr-2" width="70"><!--Its best to not use the class image-fluid so image will not shrink or grow-->
                 <div class="brand-text">
-                    <span>AIRBOX</span>
-                    <small>Hosting Provider</small>
+                    <small>AIR<span class="fs-5">BOX</span></small>
+                    <small class="fs-6">Hosting Provider</small>
                 </div>
-            </a>
+            </a><!--Created a toggler icon for mobile view with links attached once you click the icon-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
+            <div class="collapse navbar-collapse" id="navbarNav"><!--collapses navbar links when on mobile view-->
+                <ul class="navbar-nav pt-4">
                     <li class="nav-item active">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="#" class="nav-link text-secondary">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Web Hosting</a>
+                        <a href="#" class="nav-link text-secondary text-nowrap">Web Hosting</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Reseller Hosting</a>
+                        <a href="#" class="nav-link text-secondary text-nowrap">Reseller Hosting</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Services</a>
+                        <a href="#" class="nav-link text-secondary">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Blog</a>
+                        <a href="#" class="nav-link text-secondary">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
+                        <a href="#" class="nav-link text-secondary">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -53,7 +53,7 @@
     <!--HERO AREA-->
     <div class="hero-container container-fluid">
         <div class="row">
-            <div class="col-12 border-top text-center p-5 pb-0">
+            <div class="col-12 border-top border-secondary border-1 text-center p-5 pb-0">
                 <h2 class="text-secondary">24/7 Real Person</h2>
                 <h1 class="text-white">Customer Support</h1>
                 <h2 class="text-secondary">For all our clients</h2>
@@ -69,25 +69,25 @@
     <div class="d-flex justify-content-center symbols-container container-fluid">
         <div class="row">
             <div class="col-12 col-md-3 text-center">
-                <img src="/img/gears_icon.png" alt="" class="img-fluid">
+                <img src="img/gears_icon.png" alt="" class="img-fluid">
                 <h3>Control</h3>
                 <h4 class="text-secondary">panel</h4>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem.</p>
             </div>
             <div class="col-12 col-md-3 text-center">
-                <img src="/img/globe_icon.png" alt="" class="img-fluid">
+                <img src="img/globe_icon.png" alt="" class="img-fluid">
                 <h3>Multi-Domain</h3>
                 <h4 class="text-secondary">Hosting</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae.</p>
             </div>
             <div class="col-12 col-md-3 text-center">
-                <img src="/img/cloud_icon.png" alt="" class="img-fluid">
+                <img src="img/cloud_icon.png" alt="" class="img-fluid">
                 <h3>FTP</h3>
                 <h4 class="text-secondary">Service</h4>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti?</p>
             </div>
             <div class="col-12 col-md-3 text-center">
-                <img src="/img/phone_icon-removebg-preview.png" alt="" class="img-fluid">
+                <img src="img/phone_icon-removebg-preview.png" alt="" class="img-fluid">
                 <h3>Direct</h3>
                 <h4 class="text-secondary">Support</h4>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -275,18 +275,43 @@
     <div class="brands-container container-fluid">
         <div class="row text-center">
             <div class="col-12 col-md-3">
-                <img src="/img/wordpress_logo.png" alt="" class="img-fluid">
+                <img src="img/wordpress_logo.png" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-3">
-                <img src="/img/magento_logo.png" alt="" class="img-fluid">
+                <img src="img/magento_logo.png" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-3">
-                <img src="/img/opencart_logo.png" alt="" class="img-fluid">
+                <img src="img/opencart_logo.png" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-3">
-                <img src="/img/joomla_logo.png" alt="" class="img-fluid">
+                <img src="img/joomla_logo.png" alt="" class="img-fluid">
             </div>
         </div>
     </div>
+    <nav class="navbar navbar-nav navbar-light "> <!--Bootstrap feature that expands navbar from toggle button-->
+        <div class="footer-container container-fluid">
+            <div class="row">
+                <a href="#" class="col navbar-brand d-flex align-items-center"><!--This gives the image and text logo style-->
+                    <img src="img/Airbox_Logo.png" alt="AirBox" class="" width="50"><!--Its best to not use the class image-fluid so image will not shrink or grow-->
+                    <div class="brand-text fs-6">
+                        <span>AIRBOX</span>
+                        <small class="text-secondary">Hosting Provider</small>
+                    </div>
+                </a>
+            </div>
+                <div class="col-sm-12 col-md-2 d-flex">
+                    <small class="footer-text text-secondary ps-2 d-none d-sm-block">&#169; 2013 | PRIVACY POLICY</small>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 d-flex justify-content-end col-md-12">
+                        <img src="img/google.png" alt="" class="img-fluid">
+                        <img src="img/wifi.png" alt="" class="img-fluid">
+                        <img src="img/twitter.png" alt="" class="img-fluid">
+                        <img src="img/facebook.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
